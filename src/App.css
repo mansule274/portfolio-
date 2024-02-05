@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Glass+Antiqua&family=Lobster&family=Noto+Sans+JP:wght@300&family=Nova+Square&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* .links{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+} */
+.description{
+  width: 40%;
+
+}
+
+.note{
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Glass Antiqua', cursive; */
+  /* font-family: 'Lobster', sans-serif; */
+  font-family: 'Noto Sans JP', sans-serif;
+  /* font-family: 'Nova Square', sans-serif; */
+}
+
+.note-1{
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Glass Antiqua', cursive; */
+  /* font-family: 'Kalnia', serif; */
+  font-family: 'Lobster', sans-serif;
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  /* font-family: 'Nova Square', sans-serif; */
+}
+.about{
+  width: 98%;
+}
+
+.box{
+  background: rgba( 106, 26, 26, 0.35 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 0.5px );
+  -webkit-backdrop-filter: blur( 0.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  font-family: 'Kalnia', serif;
+
+}
+
+.btn{
+  margin:auto;
+  background: linear-gradient(to right, white,red);
+  transition: 0.1s;
+}
+/* .typing {
+  overflow: hidden;
+  border-right: 15em solid white;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: 4em;
+  animation: typing 2s steps(20) infinite, blink-caret .75 step-end infinite;
+}
+@keyframes typing {
+  from{width: 0;}
+  to {width: 100%;}
+  
+}
+ @keyframes blink-caret {
+  from, to {border-color:transparent;}
+ } */
+
+ .footer{
+  position: relative;
+ }
+
+ 
+
+ .contact{
+  background-image: url(./assets/contact.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background:linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0)) ; */
+ }
+ .input{
+  background: rgba( 255, 255, 255, 0.25 );
+ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+ }
+
+ 
+
+ @media only screen and (max-width: 600px) {
+  
+  .links{
+    display: none;
+    /* flex-direction: column; */
+  }
+}
+   
